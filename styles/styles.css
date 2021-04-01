@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap");
+
+:root {
+  --orange-title: #fa450a;
+  --font-title: "Nanum Brush Script", cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 95vw;
+  margin: 0 auto;
+}
+
+#info {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding: 0.5em 0;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+header > div > img {
+  padding: 0.5em;
+  padding-left: 0;
+}
+
+header > div {
+  width: 17%;
+  display: flex;
+  align-items: center;
+}
+
+.LI {
+  border-right: 1px solid #eee;
+}
+
+#info > nav > ul > li {
+  margin: 0 0.5em;
+  list-style-type: none;
+}
+
+h2 {
+  font-family: var(--font-title);
+  color: var(--orange-title);
+}
+
+header > nav {
+  margin-left: 1.5em;
+  width: 83%;
+  justify-content: space-between;
+}
+
+header > nav > ul > span {
+  display: flex;
+}
+
+header > nav > ul li {
+  list-style-type: none;
+  padding: 0.5em;
+}
+
+.block {
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  height: 90vh;
+}
+
+.block > .last-block {
+  width: 100%;
+  height: 550px;
+  background: linear-gradient(
+      180deg,
+      rgba(233, 121, 69, 0.911) 0%,
+      rgba(241, 56, 0, 0.904) 100%
+    ),
+    #bcacac;
+  border-radius: 0 0 4em 0;
+}
+
+.block-img {
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  height: 90vh;
+}
+
+.block-img > img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  object-position: 100% 20%;
+  border-radius: 0 0 4em 0;
+}
+
+.block > nav {
+  width: 100%;
+  height: 550px;
+  background: linear-gradient(
+      180deg,
+      rgba(233, 121, 69, 0.911) 0%,
+      rgba(241, 56, 0, 0.904) 100%
+    ),
+    #bcacac;
+  border-radius: 0 0 4em 0;
+}
+
+.block > img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  object-position: 20% 40%;
+  border-radius: 0 0 4em 0;
+}
+
+.a {
+  background-color: white;
+}
+
+.block > div {
+  width: 100%;
+  height: 550px;
+  background: #ffc760;
+  border-radius: 0 0 0 4em;
+}
+
+.block > div > div {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.card-no-shadow1 {
+  width: 230px;
+  height: 230px;
+  background-color: white;
+  overflow: hidden;
+  margin: 0.5em;
+}
+
+.card-no-shadow2 {
+  width: 230px;
+  height: 230px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 20px 0 0 0;
+  margin: 0.5em;
+}
+
+.card-no-shadow3 {
+  width: 230px;
+  height: 230px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 0 0 0 20px;
+  margin: 0.5em;
+}
+
+.card-no-shadow4 {
+  width: 230px;
+  height: 230px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 0 20px 0 0;
+  margin: 0.5em;
+}
+
+.card {
+  width: 230px;
+  height: 330px;
+
+  box-shadow: 1px 1px 4px 1px #888;
+  border-radius: 10px;
+  background-color: #ffc760;
+
+  overflow: hidden;
+
+  margin: 0.5em;
+}
+
+.card > h5,
+.card > footer {
+  margin: 1em;
+}
+
+.card > footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 1em;
+}
+
+.card > footer button {
+  outline: 0;
+  background-color: #ffc760;
+
+  font-size: 0.9em;
+  font-weight: 550;
+
+  padding: 0.5em;
+  width: 4em;
+}
+
+.likeButton {
+  border-radius: 5px 0 0 5px;
+  margin-right: -3px;
+}
+
+.buyButton {
+  margin-left: -3px;
+}
+
+article {
+  display: block;
+}
+
+.content-1 {
+  display: flex;
+  justify-content: space-around;
+
+  padding: 7em;
+}
+
+.content-1 > .images {
+  display: flex;
+}
+
+.content-1 > .images :nth-child(1) {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0 0 5em 0;
+  align-items: center;
+}
+.content-1 > .images :nth-child(2) {
+  height: 60%;
+  object-fit: cover;
+  border-radius: 0 5em 0 0;
+  align-items: center;
+}
+
+.content-1 > .images > img {
+  padding: 1em;
+}
+
+.last-block nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 5em 0;
+  height: 300px;
+}
+
+.last-block nav > ul {
+  display: block;
+}
+
+footer {
+  padding: 0 0 2em 0;
+}
